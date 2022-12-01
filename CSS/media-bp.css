@@ -1,0 +1,88 @@
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+}
+
+/* .container {
+    padding: 0 15px;
+  }
+  
+  @media (min-width: 575.98px){
+    .container {
+      max-width: 540px;
+      margin: auto;
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 767.98px){
+    .container {
+      max-width: 720px;	
+      margin: auto;
+    }
+  }
+  
+  @media (min-width: 991.98px) {
+    .container {
+      max-width: 960px;
+      margin: auto;
+    }
+  }
+  
+  @media (min-width: 1199.98px){
+    .container {
+      max-width: 1140px;
+      margin: auto;
+    } */
+  /* } */
+
+  /* section{
+    padding: 0 15px;
+  }
+  
+  @media (min-width: 575.98px){
+    section {
+      padding: 0 calc(50% - 270px);
+    }
+  }
+  
+  @media (min-width: 767.98px){
+    section {
+      padding: 0 calc(50% - 360px);
+    }
+  }
+  
+  @media (min-width: 991.98px) {
+    section {
+      padding: 0 calc(50% - 480px);
+    }
+  }
+  
+  @media (min-width: 1199.98px){
+    section {
+      padding: 0 calc(50% - 590px);
+    }
+  } */

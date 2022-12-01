@@ -8,238 +8,235 @@
     <title>My project</title>
     <link rel="stylesheet" href="CSS/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/mypj.css">
+    <link rel="stylesheet" href="CSS/media-bp.css">
     <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
 </head>
 
 <body>
-    <div class="menu">
+    <header>
+
+        <!-- navbar -->
         <div class="container">
-            <div class="menu__inner">
+            <div class="menu_inner">
                 <div class="logo">
                     <img src="image/images.png" alt="">
                 </div>
                 <ul class="nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Servicing</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact us</a></li>
                     <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="header">
-        <div class="container2">
-            <div class="bg-image">
-                <div class="bg-content">
-                    <div style="clear:both"></div>
-                    <div class="text-fff head_big">Web development project</div>
-                    <div class="text-fff head_mid">Very suitable to support all web development projects</div>
-                    <div class="button">
-                        <div class="butt1"><a href="#">OUR SERVICES</a></div>
-                        <div class="butt2"><a href="#">HIRE IS NOW</a></div>
-                    </div>
-                    <div class="down"><a href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></div>
+
+        <!-- hero page -->
+        <div class="bg-image">
+            <div class="bg-hero">
+            <div class=" container">
+                <!-- <div style="clear:both"></div> -->
+                <div>
+                    <h1 class="text-fff text-xl">Web development project</h1>
+                    <h4 class="text-fff text-sm">Very suitable to support all web development projects</h4>
+                </div>
+                <div class="flex-center btn">
+                    <div class="btn-pt"><a href="#">OUR SERVICES</a></div>
+                    <div class="btn-pt"><a href="#">HIRE IS NOW</a></div>
+                </div>
+                <div class="down flex-center"><a href="#price"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    </header>
+
+    <!-- content about -->
     <div class="container">
-        <div class="content_txt">
-            <div class="cover">
-                <div class="text_1">About Us</div>
-                <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-            </div>
-            <div class="box_item">
-                <div class="item">
-                    <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
-                    <div class="name">Awesome Icons</div>
-                    <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    </div>
+        <div class="container-padding">
+            <h3 class="text-lg" id="about">About Us</h3>
+            <h4 class="caption-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+            <div class="flex-around">
+                <div>
+                    <i class="fa fa-globe icon" aria-hidden="true"></i>
+                    <p class="title-box">Awesome Icons</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </p>
                 </div>
-                <div class="item">
-                    <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-                    <div class="name">One Page</div>
-                    <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    </div>
+                <div>
+                    <i class="fa fa-users icon" aria-hidden="true"></i>
+                    <p class="title-box">One Page</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                 </div>
-                <div class="item">
-                    <div class="icon"><i class="fa fa-wrench" aria-hidden="true"></i></div>
-                    <div class="name">Fully Responsive</div>
-                    <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    </div>
+                <div>
+                    <i class="fa fa-wrench icon" aria-hidden="true"></i>
+                    <p class="title-box">Fully Responsive</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="site green">
+
+    <!-- content service -->
+    <div class="bg-green">
         <div class="container">
-            <div class="content_txt">
-                <div class="cover">
-                    <div class="text_1">Our Services</div>
-                    <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
+            <div class="container-padding">
+                <h3 class="text-lg">Our Services</h3>
+                <h4 class="caption-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+                <div class="flex-around">
+                    <div class="item box-margin box-white size">
+                        <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                        <p class="title-box">Research</p>
+                        <p class="placing ">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                        <div class="press press_js"><a href="#">read more</a></div>
+                    </div>
+                    <div class="item box-margin box-white size">
+                        <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                        <p class="title-box">Portfolio</p>
+                        <p class="placing ">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                        <div class="press press_js"><a href="#">read more</a></div>
+                    </div>
+                    <div class="item box-margin box-white size">
+                        <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                        <p class="title-box">Support</p>
+                        <p class="placing ">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+                        <div class="press press_js"><a href="#">read more</a></div>
+                    </div>
                 </div>
-                <div class="box_item">
-                    <div class="item box-serv box size">
-                        <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                        <div class="name">Research</div>
-                        <div class="placing text_2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                <div class="flex-around">
+                    <div class="item box-margin box-white size">
+                        <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                        <p class="title-box">Documentation</p>
+                        <p class="placing ">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum iti atque corrupti quos.</p>
                         <div class="press press_js"><a href="#">read more</a></div>
                     </div>
-                    <div class="item box-serv box size">
-                        <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                        <div class="name">Portfolio</div>
-                        <div class="placing text_2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <div class="item box-margin box-white size">
+                        <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                        <p class="title-box">Development</p>
+                        <p class="placing ">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum iti atque corrupti quos.</p>
                         <div class="press press_js"><a href="#">read more</a></div>
                     </div>
-                    <div class="item box-serv box size">
-                        <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                        <div class="name">Support</div>
-                        <div class="placing text_2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum iti atque corrupti quos.</div>
-                        <div class="press press_js"><a href="#">read more</a></div>
-                    </div>
-                </div>
-                <div class="box_item">
-                    <div class="item box-serv box size">
-                        <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                        <div class="name">Documentation</div>
-                        <div class="placing text_2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum iti atque corrupti quos.</div>
-                        <div class="press press_js"><a href="#">read more</a></div>
-                    </div>
-                    <div class="item box-serv box size">
-                        <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                        <div class="name">Development</div>
-                        <div class="placing text_2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum iti atque corrupti quos.</div>
-                        <div class="press press_js"><a href="#">read more</a></div>
-                    </div>
-                    <div class="item box-serv box size">
-                        <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                        <div class="name">Design</div>
-                        <div class="placing text_2">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <div class="item box-margin box-white size">
+                        <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                        <p class="title-box">Design</p>
+                        <p class="placing ">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum iti atque corrupti quos.</p>
                         <div class="press press_js"><a href="#">read more</a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- content portfolio -->
     <div class="container">
-        <div id="works" class="content_txt">
-            <div class="cover">
-                <div class="text_1">Latest Works</div>
-                <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
+        <div id="works" class="container-padding">
+            <h3 class="text-lg">Latest Works</h3>
+            <h4 class="caption-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+            <div class="flex-around caption-padding">
+                <div class="press press2"><a href="#">all</a></div>
+                <div class="press"><a href="#">web design</a></div>
+                <div class="press "><a href="#">ui/ux design</a></div>
+                <div class="press"><a href="#">mosckups</a></div>
             </div>
-            <div class="box_item press_item otstup">
-                <div class="item">
-                    <div class="press press2"><a href="#">all</a></div>
-                </div>
-                <div class="item">
-                    <div class="press press2"><a href="#">web design</a></div>
-                </div>
-                <div class="item">
-                    <div class="press press2"><a href="#">ui/ux design</a></div>
-                </div>
-                <div class="item">
-                    <div class="press press2"><a href="#">mosckups</a></div>
-                </div>
-            </div>
-            <div class="box_img ">
-                <div class="item box-serv size-img">
+            <div class="flex-around ">
+                <div class="item box-margin box-white size-img">
                     <div class="icon"><img src="image/layer_7_5038.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">Hand Watch</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">Hand Watch</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
-                <div class="item box-serv size-img">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/rectangle_11_copy_5013.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">Pack</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">Pack</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
-                <div class="item box-serv size-img">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/rectangle_11_copy_2_5014.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">T-Shirt</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">T-Shirt</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
             </div>
-            <div class="box_img">
-                <div class="item box-serv size-img">
+            <div class="flex-around">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/rectangle_11_copy_3_5015.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">Bottle</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">Bottle</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
-                <div class="item box-serv size-img">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/rectangle_11_copy_3_5016.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">Wine</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">Wine</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
-                <div class="item box-serv size-img">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/rectangle_11_copy_3_5017.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">BackPack</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">BackPack</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
             </div>
-            <div class="box_img box_hide">
-                <div class="item box-serv size-img">
+            <div class="flex-around box_hide">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/layer_7_5038.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">Hand Watch</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">Hand Watch</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
-                <div class="item box-serv size-img">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/rectangle_11_copy_5013.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">Pack</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">Pack</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
-                <div class="item box-serv size-img">
+                <div class="item box-margin size-img box-white">
                     <div class="icon"><img src="image/rectangle_11_copy_2_5014.png" alt=""></i></div>
                     <div class="icon_text">
-                        <p class="name text-fff otstup2">T-Shirt</p>
-                        <p class="text_2 text-fff">ui/ux design</p>
+                        <p class="title-box text-fff ">T-Shirt</p>
+                        <p class=" text-fff">ui/ux design</p>
                     </div>
                 </div>
             </div>
-            <div class="show_item box_item press press_pad press2"><a href="javascript:voit(0)">view all</a></div>
+            <div class="show_item flex-around press  press2"><a href="javascript:voit(0)">view all</a></div>
         </div>
     </div>
-    <div class="site grey">
+
+    <!-- content price -->
+    <div class="bg-grey">
         <div class="container">
-            <div class="content_txt">
-                <div class="cover">
-                    <div class="text_1">Pricing Plan</div>
-                    <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                </div>
-                <div class="box_item">
-                    <div class="box size2">
-                        <div class="border_blue">
+            <div class="container-padding">
+                <h3 class="text-lg" id="price">Pricing Plan</h3>
+                <h4 class="caption-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+                <div class="flex-around">
+                    <div class="box-white size2">
+                        <div class="position-box">
                             <div class="price_box"></div>
-                            <div class="price_text">Free Trail</div>
-                            <div class="price price2"><span><sup>$</sup>00</span> per month</div>
+                            <div class="text-sm text-fff position-text">Free Trail</div>
+                            <div class="position-text price2"><sup>$</sup><span class="text-xl">00</span><span class="text-fff">per month</span></div>
                         </div>
                         <div class="price">30 Free Trail</div>
                         <div class="line"></div>
@@ -249,13 +246,13 @@
                         <div class="line"></div>
                         <div class="price">24/7 Suports</div>
                         <div class="line"></div>
-                        <div class="press press_pad press2"><a href="#">order now</a></div>
+                        <div class="press  press2"><a href="#">order now</a></div>
                     </div>
-                    <div class="box size2">
-                        <div class="border_blue">
+                    <div class="box-white size2">
+                        <div class="position-box">
                             <div class="price_box"></div>
-                            <div class="price_text">Basic</div>
-                            <div class="price price2"><span><sup>$</sup>50</span> per month</div>
+                            <div class="text-sm text-fff position-text">Basic</div>
+                            <div class="position-text price2"><sup>$</sup><span class="text-xl">50</span><span class="text-fff">per month</span></div>
                         </div>
                         <div class="price">30 Free Trail</div>
                         <div class="line"></div>
@@ -265,13 +262,13 @@
                         <div class="line"></div>
                         <div class="price">24/7 Suports</div>
                         <div class="line"></div>
-                        <div class="press press_pad press2"><a href="#">order now</a></div>
+                        <div class="press  press2"><a href="#">order now</a></div>
                     </div>
-                    <div class="box size2">
-                        <div class="border_blue">
+                    <div class="box-white size2">
+                        <div class="position-box">
                             <div class="price_box"></div>
-                            <div class="price_text">Ultimates</div>
-                            <div class="price price2"><span><sup>$</sup>99</span> per month</div>
+                            <div class="text-sm text-fff position-text">Ultimates</div>
+                            <div class="position-text price2"><sup>$</sup><span class="text-xl">99</span><span class="text-fff">per month</span></div>
                         </div>
                         <div class="price">30 Free Trail</div>
                         <div class="line"></div>
@@ -281,178 +278,153 @@
                         <div class="line"></div>
                         <div class="price">24/7 Suports</div>
                         <div class="line"></div>
-                        <div class="press press_pad press2"><a href="#">order now</a></div>
+                        <div class="press  press2"><a href="#">order now</a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="site_member">
+
+    <!-- content member -->
+    <div>
         <div class="container">
-            <div class="content_txt">
-                <div class="cover">
-                    <div class="text_1">Our Team Member</div>
-                    <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                </div>
-                <div  id="js-carousel-1" class="owl-carousel box_item">
-                    <div class="box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5207.png" alt=""></i></div>
-                        <div class="name name2">John Doe</div>
-                        <div class="text_2">General Manager</div>
-                        <div class="block_app">
+            <div class="container-padding">
+                <h3 class="text-lg">Our Team Member</h3>
+                <h4 class="caption-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+                <div id="js-carousel-1" class="owl-carousel flex-around">
+                    <div class="box-margin carousel-item">
+                        <img src="image/rounded_rectangle_1_5207.png" alt=""></i>
+                        <p class="title-box mb">John Doe</p>
+                        <p class="">General Manager</p>
+                        <div class="flex-center">
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                <a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                                <a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5248.png" alt=""></i></div>
-                        <div class="name name2">Alexa Biru</div>
-                        <div class="text_2">Office Director</div>
-                        <div class="block_app">
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
+                                <a href="https://telegram.org"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="item box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5274.png" alt=""></i></div>
-                        <div class="name name2">Ronobir sing</div>
-                        <div class="text_2">Admin</div>
-                        <div class="block_app">
+                    <div class="item box-margin carousel-item">
+                        <img src="image/rounded_rectangle_1_5248.png" alt=""></i>
+                        <p class="title-box mb">Alexa Biru</p>
+                        <p class="">Office Director</p>
+                        <div class="flex-center">
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                                <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5274.png" alt=""></i></div>
-                        <div class="name name2">Ronobir sing</div>
-                        <div class="text_2">Admin</div>
-                        <div class="block_app">
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
+                                <a href="https://telegram.org"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5274.png" alt=""></i></div>
-                        <div class="name name2">Ronobir sing</div>
-                        <div class="text_2">Admin</div>
-                        <div class="block_app">
+                    <div class="item box-margin carousel-item">
+                        <img src="image/rounded_rectangle_1_5274.png" alt=""></i>
+                        <p class="title-box mb">Ronobir Sing</p>
+                        <p>Admin</p>
+                        <div class="flex-center">
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                                <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5274.png" alt=""></i></div>
-                        <div class="name name2">Ronobir sing</div>
-                        <div class="text_2">Admin</div>
-                        <div class="block_app">
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
+                                <a href="https://telegram.org"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5274.png" alt=""></i></div>
-                        <div class="name name2">Ronobir sing</div>
-                        <div class="text_2">Admin</div>
-                        <div class="block_app">
+                    <div class="item box-margin carousel-item">
+                        <img src="image/rounded_rectangle_1_5274.png" alt=""></i>
+                        <p class="title-box mb">Ronobir Sing</p>
+                        <p>Admin</p>
+                        <div class="flex-center">
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                                <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
+                                <a href="https://telegram.org"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="box-serv carousel-item">
-                        <div class="icon2"><img src="image/rounded_rectangle_1_5274.png" alt=""></i></div>
-                        <div class="name name2">Ronobir sing</div>
-                        <div class="text_2">Admin</div>
-                        <div class="block_app">
+                    <div class="box-margin carousel-item">
+                        <img src="image/rounded_rectangle_1_5274.png" alt=""></i>
+                        <p class="title-box mb">Ronobir Sing</p>
+                        <p>Admin</p>
+                        <div class="flex-center">
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                                <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
-                                </div>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
                             </div>
                             <div class="app">
-                                <div class=""><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></div>
+                                <a href="https://telegram.org"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-margin carousel-item">
+                        <img src="image/rounded_rectangle_1_5274.png" alt=""></i>
+                        <p class="title-box mb">Ronobir Sing</p>
+                        <p>Admin</p>
+                        <div class="flex-center">
+                            <div class="app">
+                                <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="app">
+                                <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="app">
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="app">
+                                <a href="https://telegram.org"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-margin carousel-item">
+                        <img src="image/rounded_rectangle_1_5274.png" alt=""></i>
+                        <p class="title-box mb">Ronobir Sing</p>
+                        <p>Admin</p>
+                        <div class="flex-center">
+                            <div class="app">
+                                <a href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="app">
+                                <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="app">
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="app">
+                                <a href="https://telegram.org"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -460,16 +432,17 @@
             </div>
         </div>
     </div>
-    <div class="site green">
+
+    <!-- content blog -->
+    <div class="bg-green">
         <div class="container">
-            <div class="content_txt">
-                <div class="cover">
-                    <div class="text_1">Blog</div>
-                    <div class="text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                </div>
+            <div class="container-padding">
+                <h3 class="text-lg" id="blog">Blog</h3>
+                <h4 class="caption-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
                 <div class="box_inner">
-                    <div class="photo"><img src="image/rectangle_17_5319.png"></div>
+                    <img src="image/rectangle_17_5319.png">
                     <div class="story">
                         <p class="name_art">SEO Quis Vestibulum</p>
                         <div class="item_art">
@@ -481,7 +454,7 @@
                     </div>
                 </div>
                 <div class="box_inner">
-                    <div class="story story2">
+                    <div class="story">
                         <p class="name_art">SEO Quis Vestibulum</p>
                         <div class="item_art">
                             <i class="fa fa-calendar" aria-hidden="true"> Calendar</i>
@@ -490,10 +463,10 @@
                         <p class="art">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat...</p>
                     </div>
-                    <div class="photo"><img src="image/rectangle_17_5342.png"></div>
+                    <img src="image/rectangle_17_5342.png">
                 </div>
                 <div class="box_inner">
-                    <div class="photo"><img src="image/rectangle_17_5615.png"></div>
+                    <img src="image/rectangle_17_5615.png">
                     <div class="story">
                         <p class="name_art">SEO Quis Vestibulum</p>
                         <div class="item_art">
@@ -505,7 +478,7 @@
                     </div>
                 </div>
                 <div class="box_inner box_hide">
-                    <div class="story story2">
+                    <div class="story">
                         <p class="name_art">SEO Quis Vestibulum</p>
                         <div class="item_art">
                             <i class="fa fa-calendar" aria-hidden="true"> Calendar</i>
@@ -514,49 +487,59 @@
                         <p class="art">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat...</p>
                     </div>
-                    <div class="photo"><img src="image/rectangle_17_5342.png"></div>
+                    <img src="image/rectangle_17_5342.png">
                 </div>
-                <div class="show_item box_item press press_pad press2"><a href="javascript:voit(0)">more view</a></div>
+                <div class="show_item flex-around press  press2"><a href="javascript:voit(0)">more view</a></div>
             </div>
         </div>
     </div>
+
+    <!-- content contact -->
     <div class="site black">
         <div class="container">
-            <div class="content_txt">
-                <div class="cover">
-                    <div class="text_1 text-fff">Contact Us</div>
-                    <div class="text_2 text-fff">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                </div>
-                <div class="box_item2">
-                    <div class="item2">
-                        <div class="icon_foot"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                        <div class="name text-fff">Nobinagar savar,<br>Dhaka Bangladesh</div>
+            <div class="container-padding">
+                <h3 class="text-lg text-fff" id="contact">Contact</h3>
+                <h4 class="caption-padding text-fff">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h4>
+                <div class="icon-contact">
+                    <div>
+                        <i class="fa fa-map-marker  text-fff text-xl" aria-hidden="true"></i>
+                        <p class="title-box text-fff">Nobinagar savar,<br>Dhaka Bangladesh</p>
                     </div>
-                    <div class="item2">
-                        <div class="icon_foot"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                        <div class="name text-fff">+8801743331996<br>+8801928737807</div>
+                    <div>
+                        <i class="fa fa-phone  text-fff text-xl" aria-hidden="true"></i>
+                        <div class="title-box">
+                            <a class="text-fff" href="tel:+8801743331996">+8(8017)43-331-996</a><br>
+                            <a class="text-fff" href="tel:+881928737807">+8(8019)28-737-807</a>
+                        </div>
                     </div>
-                    <div class="item2">
-                        <div class="icon_foot"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                        <div class="name text-fff">quickmasud@gmail.com<br>quickmasud@yahoo.com</div>
-                    </div>  
+                    <div>
+                        <i class="fa fa-envelope-o text-fff text-xl" aria-hidden="true"></i>
+                        <div class="title-box">
+                            <a class="text-fff" href="malito:quickmasud@gmail.com">quickmasud@gmail.com</a><br>
+                            <a class="text-fff" href="malito:quickmasud@yahoo.com">quickmasud@yahoo.com</a>
+                        </div>
+                    </div>
                 </div>
-        <form action="">
-            <div class="client">
-                <input placeholder="Your NAME" type="text" class="forma1 forma">
-                <input placeholder="Your Email" type="text" class="forma1 forma">
+                <form>
+                    <div class="flex-center">
+                        <input placeholder="Your NAME" type="text" class="form-input forma">
+                        <input placeholder="Your Email" type="email" class="form-input forma">
+                    </div>
+                    <div class="">
+                        <textarea type="text" placeholder="Write Massage"class=" forma form-area"></textarea>
+                    </div>
+                    <div><input type="button" value="send" class="forma form-btn"></div>
+                </form>
             </div>
-            <div class="client"><textarea type="text" placeholder="Write Massage" class="forma2 forma"></textarea></div>
-            <div class="client client1"><input type="button" value="send" class=" forma forma3"></div>
-        </form>
+        </div>
     </div>
-    </div>
-    </div>
-    <div class="footer client">
-        <span class="text2">All rights Reserved © 2017</span>
-    </div>
+
+
+    <footer class="foot">
+        <span class="text-sm">All rights Reserved © 2017</span>
+    </footer>
     <script src="jquery.js"></script>
     <script src="dist/owl.carousel.min.js"></script>
     <script src="project.js"></script>

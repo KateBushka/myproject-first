@@ -1,11 +1,11 @@
 var press = document.getElementsByClassName('press_js');
 for (var i = 0; i < press.length; i++) {
     press[i].addEventListener('mouseover', function (e) {
-        var box = e.fromElement.closest('.box');
+        var box = e.fromElement.closest('.box-white');
         box.classList.add('hovered');
     });
 }
-var box = document.getElementsByClassName('box');
+var box = document.getElementsByClassName('box-white');
 for (var i = 0; i < press.length; i++) {
     box[i].addEventListener('mouseleave', function (e) {
         e.fromElement.classList.remove('hovered');
@@ -25,7 +25,7 @@ $(document).ready(function(){
         parentB.find('.icon_text').hide();
     })
     $('.show_item').on('click',function(){
-        var parentB=$(this).parents('.content_txt').eq(0);
+        var parentB=$(this).parents('.container-padding').eq(0);
         parentB.find('.box_hide').removeClass('box_hide');
     })
   });
